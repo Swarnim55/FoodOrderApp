@@ -1,6 +1,6 @@
 # FoodOrderApp
 
-Building a Food Order App with ReactJs
+A simple Food Order App with ReactJs
 
 1. Created React App using create-react-app.
 2. Created multiple components and assets sections.
@@ -13,3 +13,4 @@ Building a Food Order App with ReactJs
 9. Created a Overlay Modal for Cart Component via ReactPortal and passed to index.html via CreateReactPortal
 10. Implemented Cart with some dummy data and states, used props for reusability and scalability.
 11. Created Context for the Cart using ContextAPI and Provided it to all the components which needs the cart-context data.
+12. Used to Context in Header Cart Button, and assigned the total added items to the badge using Reducer() method.
