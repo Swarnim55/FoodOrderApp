@@ -14,3 +14,4 @@ A simple Food Order App with ReactJs
 10. Implemented Cart with some dummy data and states, used props for reusability and scalability.
 11. Created Context for the Cart using ContextAPI and Provided it to all the components which needs the cart-context data.
 12. Used to Context in Header Cart Button, and assigned the total added items to the badge using Reducer() method.
+13. Added a Reducer function to the Cart Provider to update the items and amount in the context when added.
