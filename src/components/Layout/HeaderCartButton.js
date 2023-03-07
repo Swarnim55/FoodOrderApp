@@ -14,7 +14,7 @@ const HeaderCartButton = (props) => {
       <span className={styles.icon}>
         <CartIcon />
       </span>
-      <span>Your Cart</span>
+      <span className={styles.btnTitle}>Your Cart</span>
       <span className={styles.badge}>{numberOfCartItems}</span>
     </button>
   );

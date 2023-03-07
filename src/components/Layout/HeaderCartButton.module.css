@@ -39,6 +39,17 @@
 .bump {
   animation: bump 300ms ease-out;
 }
+@media (max-width: 768px) {
+  .button {
+    padding: 0.75rem 0.75rem;
+  }
+  .btnTitle {
+    display: none;
+  }
+  .badge {
+    margin-left: 0rem;
+  }
+}
 
 @keyframes bump {
   0% {
