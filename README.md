@@ -12,3 +12,4 @@ Building a Food Order App with ReactJs
 8. Worked along Cart component and styling.
 9. Created a Overlay Modal for Cart Component via ReactPortal and passed to index.html via CreateReactPortal
 10. Implemented Cart with some dummy data and states, used props for reusability and scalability.
+11. Created Context for the Cart using ContextAPI and Provided it to all the components which needs the cart-context data.
