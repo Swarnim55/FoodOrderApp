@@ -13,7 +13,7 @@ const HeaderCartButton = (props) => {
 
   const btnClasses = `${styles.button} ${btnIsHigh ? styles.bump : ''}`;
   useEffect(() => {
-    if (cartCtx.items.length === 0) {
+    if (items.length === 0) {
       return;
     }
     setBtnIsHigh(true);
