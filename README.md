@@ -16,3 +16,6 @@ A simple Food Order App with ReactJs
 12. Used to Context in Header Cart Button, and assigned the total added items to the badge using Reducer() method.
 13. Added a Reducer function to the Cart Provider to update the items and amount in the context when added.
 14. Added forwardRef to input component to enable useRef for mealsForm, updated amount in cart consuming the addItems function from the context.
+15. Added CartItem module and tapped into the context, for adding products to the cart
+16. Improved the useReducer logic to update the cartItems quantity.
+17. Updated removeItems logic to allow products to be removed and decreased on cart.
